@@ -41,7 +41,7 @@ def main(page: ft.Page):
     def mostrar_resumen(e):
     
         nombre = txt_nombre.value
-        correo =  txt_correo.vaule
+        correo = txt_correo.value
         tipo = dropdown_tipo.value
         modalidad = radio_modalidad.value
         requerimiento = "Sí" if check_requerimiento.value else "No"
